@@ -36,7 +36,7 @@ def main():
     A.edge_attr.update(arrowtail='box', color='orange;0.5:purple')
     print(list(A.edge_attr))
     A.layout()
-    A.draw('/tmp/polya.pdf', prog='dot')
+    A.draw('/tmp/polya.svg', prog='dot')
 
 
 if __name__ == '__main__':
