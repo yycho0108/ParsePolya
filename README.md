@@ -10,4 +10,4 @@ Parse the heuristics dictionary of "How To Solve It" by G. Polya in a DiGraph. M
 
 Tree specifically generated for 'Understanding The Problem':
 
-![solveit-tree](./polya_tree.svg')
+![solveit-tree](./polya_tree.svg)

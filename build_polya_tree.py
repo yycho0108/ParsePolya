@@ -16,6 +16,8 @@ def main():
         'SEPARATE THE VARIOUS PARTS OF THE CONDITION']
 
     G2 = nx.Graph()
+    for s in seed:
+        G2.add_edge('Understanding The Problem', s)
 
     # Follow recursively through references
     visited = set()
@@ -44,7 +46,6 @@ def main():
     A = nx.drawing.nx_agraph.to_agraph(G2)
     # A.edge_attr.update(arrowtail='box', color='orange;0.5:purple')
     A.draw('/tmp/polya_tree.svg', prog='dot')
-
 
 
 if __name__ == '__main__':
