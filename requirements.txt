@@ -1,0 +1,6 @@
+PyMuPDF
+fuzzysearch
+numpy
+networkx
+matplotlib
+pygraphviz
